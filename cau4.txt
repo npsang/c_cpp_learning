@@ -1,0 +1,19 @@
+Dòng lệnh thứ 3 lỗi sai khoảng cách thụt vô, phải thẳng hàng so với dòng 2 mới đúng.
+Dòng lệnh thứ 3 lỗi ở dấu ';" vì sau while không có dấu ';'
+Dòng lệnh thứ 5 lỗi ở điều kiện '=', phải dùng '==' mới đúng
+Dòng lệnh thứ 6 lỗi ở 'True', 'true' mới đúng
+Dòng lệnh thứ 10 lỗi ở 'False', 'false' mới đúng
+
+Viết lại:
+
+bool KTSoCP(int n){
+    int i = 0;
+    while (i * i <= n)
+    {
+        if (i * i == n){
+            return true;
+        }
+        ++i;
+    }
+    return false;
+}
